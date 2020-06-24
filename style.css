@@ -1,0 +1,21 @@
+li {
+    display: inline;
+border: solid 2px black;
+padding: 5px;
+margin: 5px;
+margin-bottom: 15px;
+}
+
+section1 {
+    text-align: center;
+}
+
+#breaky {
+    width: 400px;
+}
+
+html {
+    background-color: burlywood;
+}
+
+#logo background-color: burlywood; 
