@@ -14,28 +14,19 @@ if (hourNow > 18) {
 
 document.write('<p>' + greeting + '</p>');
 
-<html>
-    <body>
+<<p>CLick for something to happen?</p>
+<button onclick="myFunction()">Try it</button>
+ <p id="demo"></p>
 
-        <p>CLick for something to happen?</p>
-
-        <button onclick="myFunction()">Try it</button>
-
-        <p id="demo"></p>
-
-        <script>
-            function myFunction() {
+ <script>
+function myFunction() {
                 var person = prompt("Please enter your name", "Harvey Dent");
                 if (person != null) {
                     document.getElementById("demo??").innerHTML = "Is that you, Harvey?" + person + "! TWO-FACE!!";
                 }
             }
-        </script>
-    </body>
-</html>
+            </script>
 
-<html>
-<body>
 
 <p>CLick the button to wait 3 seconds, then alert "Intruder Alert".</p>
 
@@ -47,6 +38,5 @@ function myFunction() {
 }
     
 }</script>
-</body>
-</html>
+
 
