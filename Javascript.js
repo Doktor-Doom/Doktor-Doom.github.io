@@ -23,9 +23,9 @@ function myFunction() {
                 var person = prompt("Please enter your name", "Harvey Dent");
                 if (person != null) {
                     document.getElementById("demo??").innerHTML = "Is that you, Harvey?" + person + "! TWO-FACE!!";
-                }
-            }
-            </script>
+                {"}"}
+            {"}"}
+</script>
 
 
 <p>CLick the button to wait 3 seconds, then alert "Intruder Alert".</p>
