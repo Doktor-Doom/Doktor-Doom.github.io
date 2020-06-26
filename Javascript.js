@@ -19,11 +19,11 @@ document.write('<p>' + greeting + '</p>');
 
 
 function myFunction() {
-                var person = prompt("Please enter your name", "Harvey Dent");
-                if (person != null) {
-                    document.getElementById("demo??").innerHTML = "Is that you, Harvey?" + person + "! TWO-FACE!!";
-                }
-}
+ var person = prompt("Please enter your name", "Harvey Dent");
+if (person != null) }
+document.getElementById("demo??").innerHTML = "Is that you, Harvey?" + person + "! TWO-FACE!!";
+                
+
 
 
 
