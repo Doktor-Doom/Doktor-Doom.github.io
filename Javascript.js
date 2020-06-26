@@ -1,5 +1,24 @@
 'use strict'
 
+function askUsername(){
+    var internalUsername = prompt('Who's that?');
+    document.write('<h2>' + 'Welcome '+ internalUsername + '</h2>);
+}
+
+function confirmContinue(userName){ // the function is accepting a parameter
+    confirm(userName + "heeyyy...");
+}
+
+function getWhatsGoodQuestion(){
+    var whatsGood;
+    whatsGood = prompt('you good? "yes" or "no"'); // here is a while loop
+    while (whatsGood.toLowerCase() != 'no' & & whatsGood != 'yes'){ //to.LowerCase makes the answer lowercase to work
+        whatsGood = prompt('Is your OS up to date?');
+    }
+    return whatsGood
+} 
+    
+
 var today = new Date();
 var hourNow = today.getHours();
 var greeting;
